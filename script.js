@@ -3,22 +3,12 @@ let allAlbums = [];
 async function fetchAlbums() {
     try {
         const response = await fetch("albums.json");
-        if (!response.ok) {
-            throw new Error(`HTTP error! Status: ${response.status}`);
-        }
-        const data = await response.json();
-        
-        if (!Array.isArray(data)) {
-            throw new Error("Invalid JSON format: Expected an array of albums.");
-        }
-
-        allAlbums = data;
+        allAlbums = await response.json();
         renderAlbums(allAlbums);
     } catch (error) {
         console.error("Failed to load album data:", error);
     }
 }
-
 
 function calculateScore(album) {
     if (album.songs.length === 0) return "0.0";
@@ -32,8 +22,8 @@ function showArtistAlbums(artistName) {
 }
 
 function getRatingClass(rating) {
-    if (rating === 10) return "perfect-rating";   // Gold Glow for 10/10
-    if (rating >= 8) return "high-rating";        // Green for 8-9.9
+    if (rating === 10) return "perfect-rating";   // Glowing Green & Gold for 10/10
+    if (rating >= 7) return "high-rating";        // Green for 8-9.9
     if (rating >= 5) return "mid-rating";         // Yellow for 5-7.9
     return "low-rating";                          // Red for 1-4.9
 }
@@ -56,6 +46,7 @@ function renderAlbums(albums, isFiltered = false) {
         const backButton = document.createElement("button");
         backButton.textContent = "⬅ Back to All Albums";
         backButton.classList.add("back-button");
+        backButton.onclick = () => render
         backButton.onclick = () => renderAlbums(allAlbums);
         albumContainer.appendChild(backButton);
     }

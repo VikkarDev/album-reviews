@@ -1,21 +1,40 @@
 [
     {
-        "name": "For Melancholy Brunettes",
-        "artists": ["Japanese Breakfast"],
-        "cover": "cover1.jpg",
-        "description": "A deep, emotional album.",
+        "name": "MUSIC",
+        "artists": ["Playboi Carti"],
+        "cover": "/media/iammusic.png",
+        "description": "",
         "songs": [
-            { "name": "Dreaming", "rating": 9.2, "features": [] },
-            { "name": "Lost in Time", "rating": 10, "features": ["Phoebe Bridgers"] }
-        ]
-    },
-    {
-        "name": "Hornet Disaster",
-        "artists": ["Weatherday"],
-        "cover": "cover2.jpg",
-        "description": "Experimental and unique.",
-        "songs": [
-            { "name": "Chaos Theory", "rating": 7.5, "features": [] }
-        ]
+            { "name": "POP OUT", "rating": 4.3, "features": [] },
+            { "name": "CRUSH", "rating": 7.1, "features": ["Travis Scott"] },
+            { "name": "K POP", "rating": 3.5, "features": [] },
+            { "name": "EVIL JnullRDAN", "rating": 7.0, "features": [] },
+            { "name": "MOJO JOJO", "rating": 5.4, "features": [] },
+            { "name": "PHILLY", "rating": 8.1, "features": ["Travis Scott"] },
+            { "name": "RADAR", "rating": null, "features": [] },
+            { "name": "RATHER LIE", "rating": null, "features": ["The Weeknd"] },
+            { "name": "FINE SHIT", "rating": null, "features": [] },
+            { "name": "BACKDOOR", "rating": null, "features": ["Kendrick Lamar", "Jhené Aiko"] },
+            { "name": "TOXIC", "rating": null, "features": ["Skepta"] },
+            { "name": "MUNYUN", "rating": null, "features": [] },
+            { "name": "CRANK", "rating": null, "features": [] },
+            { "name": "CHARGE DEM HOES A FEE", "rating": null, "features": ["Future", "Travis Scott"] },
+            { "name": "GOOD CREDIT", "rating": null, "features": ["Kendrick Lamar"] },
+            { "name": "I SEEEEEE YOU BABY BOI", "rating": null, "features": [] },
+            { "name": "WAKE UP FILTHY", "rating": null, "features": ["Travis Scott"] },
+            { "name": "JUMPIN", "rating": null, "features": ["Lil Uzi Vert"] },
+            { "name": "TRIM", "rating": null, "features": ["Future"] },
+            { "name": "COCAINE NOSE", "rating": null, "features": [] },
+            { "name": "WE NEED ALL DA VIBES", "rating": null, "features": ["Young Thug", "Ty Dolla $ign"] },
+            { "name": "OLYMPIAN", "rating": null, "features": [] },
+            { "name": "OPM BABI", "rating": null, "features": [] },
+            { "name": "TWIN TRIM", "rating": null, "features": ["Lil Uzi Vert"] },
+            { "name": "LIKE WEEZY", "rating": null, "features": [] },
+            { "name": "DIS 1 GOT IT", "rating": null, "features": [] },
+            { "name": "WALK", "rating": null, "features": [] },
+            { "name": "HBA", "rating": null, "features": [] },
+            { "name": "OVERLY", "rating": null, "features": [] },
+            { "name": "SOUTH ATLANTA BABY", "rating": null, "features": [] }
+    ]
     }
 ]

@@ -1,5 +1,32 @@
 [
     {
+        "name": "Utopia",
+        "artists": ["Travis Scott"],
+        "cover": "/media/utopia.png",
+        "description": "",
+        "songs": [
+            { "name": "HYAENA", "rating": 7.5, "features": [] },
+            { "name": "THANK GOD", "rating": 7.8, "features": [] },
+            { "name": "MODERN JAM", "rating": 5.6, "features": ["Teezo Touchdown"] },
+            { "name": "MY EYES", "rating": 10.0, "features": [] },
+            { "name": "GOD'S COUNTRY", "rating": 7.2, "features": [] },
+            { "name": "SIRENS", "rating": 7.6, "features": [] },
+            { "name": "MELTDOWN", "rating": 7.5, "features": ["Drake"] },
+            { "name": "FE!N", "rating": 8.2, "features": ["Playboi Carti"] },
+            { "name": "DELRESTO (ECHOES)", "rating": 7.9, "features": ["Beyoncé"] },
+            { "name": "I KNOW ?", "rating": 7.4, "features": [] },
+            { "name": "TOPIA TWINS", "rating": 7.7, "features": ["Rob49", "21 Savage"] },
+            { "name": "CIRCUS MAXIMUS", "rating": 8.2, "features": ["The Weeknd", "Swae Lee"] },
+            { "name": "PARASAIL", "rating": 7.0, "features": ["Dave Chappelle", "Yung Lean"] },
+            { "name": "SKITZO", "rating": 8.1, "features": ["Young Thug"] },
+            { "name": "LOST FOREVER", "rating": 8.3, "features": ["Westside Gunn"] },
+            { "name": "LOOOVE", "rating": 7.5, "features": ["Kid Cudi"] },
+            { "name": "K-POP", "rating": 6.5, "features": ["Bad Bunny", "The Weeknd"] },
+            { "name": "TELEKINESIS", "rating": 9.2, "features": ["Future", "SZA"] },
+            { "name": "TIL FURTHER NOTICE", "rating": 8.0, "features": ["James Blake", "21 Savage"] }
+        ]
+    },
+    {
         "name": "MUSIC",
         "artists": ["Playboi Carti"],
         "cover": "/media/iammusic.png",
@@ -8,7 +35,7 @@
             { "name": "POP OUT", "rating": 4.3, "features": [] },
             { "name": "CRUSH", "rating": 7.1, "features": ["Travis Scott"] },
             { "name": "K POP", "rating": 3.5, "features": [] },
-            { "name": "EVIL JnullRDAN", "rating": 7.0, "features": [] },
+            { "name": "EVIL J0RDAN", "rating": 7.0, "features": [] },
             { "name": "MOJO JOJO", "rating": 5.4, "features": [] },
             { "name": "PHILLY", "rating": 8.1, "features": ["Travis Scott"] },
             { "name": "RADAR", "rating": null, "features": [] },
@@ -35,6 +62,6 @@
             { "name": "HBA", "rating": null, "features": [] },
             { "name": "OVERLY", "rating": null, "features": [] },
             { "name": "SOUTH ATLANTA BABY", "rating": null, "features": [] }
-    ]
+        ]
     }
 ]

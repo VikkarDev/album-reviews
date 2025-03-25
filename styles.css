@@ -1,0 +1,149 @@
+/* General Styles */
+body {
+    background-color: #181818;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Album Card Styles */
+.album-card {
+    background-color: #222;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.album-cover {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.album-content {
+    flex: 1;
+}
+
+.album-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.album-header h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.song-list {
+    margin-top: 10px;
+}
+
+.song-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.song-list th, .song-list td {
+    padding: 8px;
+    border-bottom: 1px solid #333;
+    text-align: left;
+}
+
+.album-score {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1db954;
+}
+
+.album-description {
+    font-size: 14px;
+    color: #bbb;
+    margin-top: 5px;
+    white-space: pre-wrap; /* Allows longer text to wrap properly */
+}
+
+/* Clickable Artists & Features */
+.artist-link, .feature-link {
+    color: #1db954;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.artist-link:hover, .feature-link:hover {
+    text-decoration: underline;
+}
+.back-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 15px;
+    background-color: #1db954;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #17a34a;
+}
+/* Search Bar */
+.search-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+#search {
+    padding: 10px;
+    width: 50%;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Rating Colors */
+.rating {
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Dynamic Colors */
+.low-rating { color: #ff4c4c; }      /* Red for 1-4.9 */
+.mid-rating { color: #f5a623; }     /* Yellow for 5-7.9 */
+.high-rating { color: #1db954; }    /* Green for 8-9.9 */
+
+/* Glowing Green & Gold for 10/10 */
+.perfect-rating {
+    color: gold;
+    text-shadow: 0 0 8px gold, 0 0 12px limegreen;
+}
+
+/* Back Button */
+.back-button {
+    background-color: #444;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+

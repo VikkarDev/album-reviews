@@ -3,12 +3,22 @@ let allAlbums = [];
 async function fetchAlbums() {
     try {
         const response = await fetch("albums.json");
-        allAlbums = await response.json();
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+        }
+        const data = await response.json();
+        
+        if (!Array.isArray(data)) {
+            throw new Error("Invalid JSON format: Expected an array of albums.");
+        }
+
+        allAlbums = data;
         renderAlbums(allAlbums);
     } catch (error) {
         console.error("Failed to load album data:", error);
     }
 }
+
 
 function calculateScore(album) {
     if (album.songs.length === 0) return "0.0";

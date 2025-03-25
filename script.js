@@ -22,7 +22,7 @@ function showArtistAlbums(artistName) {
 }
 
 function getRatingClass(rating) {
-    if (rating === 10) return "perfect-rating";   // Glowing Green & Gold for 10/10
+    if (rating === 10) return "perfect-rating";   // Gold Glow for 10/10
     if (rating >= 8) return "high-rating";        // Green for 8-9.9
     if (rating >= 5) return "mid-rating";         // Yellow for 5-7.9
     return "low-rating";                          // Red for 1-4.9
@@ -46,7 +46,6 @@ function renderAlbums(albums, isFiltered = false) {
         const backButton = document.createElement("button");
         backButton.textContent = "⬅ Back to All Albums";
         backButton.classList.add("back-button");
-        backButton.onclick = () => render
         backButton.onclick = () => renderAlbums(allAlbums);
         albumContainer.appendChild(backButton);
     }

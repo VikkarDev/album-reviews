@@ -1,35 +1,21 @@
 [
     {
         "name": "For Melancholy Brunettes",
-        "artist": "Japanese Breakfast",
-        "cover": "https://example.com/japanese-breakfast.jpg",
-        "description": "A dreamy and emotional journey through melancholic soundscapes. This album takes inspiration from personal experiences and deep emotions, blending smooth melodies with introspective lyrics.",
+        "artists": ["Japanese Breakfast"],
+        "cover": "cover1.jpg",
+        "description": "A deep, emotional album.",
         "songs": [
-            { "name": "Soft Glow", "rating": 8.2, "features": [] },
-            { "name": "Lost in Thought", "rating": 7.5, "features": ["Mitski"] },
-            { "name": "Sunset Waves", "rating": 9.1, "features": [] }
+            { "name": "Dreaming", "rating": 9.2, "features": [] },
+            { "name": "Lost in Time", "rating": 10, "features": ["Phoebe Bridgers"] }
         ]
     },
     {
         "name": "Hornet Disaster",
-        "artist": "Weatherday",
-        "cover": "https://example.com/weatherday.jpg",
-        "description": "",
+        "artists": ["Weatherday"],
+        "cover": "cover2.jpg",
+        "description": "Experimental and unique.",
         "songs": [
-            { "name": "Storm Warning", "rating": 10.0, "features": [] },
-            { "name": "Neon Nightmares", "rating": 10.0, "features": [] },
-            { "name": "Falling Sky", "rating": 10.0, "features": [] }
-        ]
-    },
-    {
-        "name": "I Said I Love You First",
-        "artist": "Selena Gomez & Benny Blanco",
-        "cover": "https://example.com/selena-gomez.jpg",
-        "description": "A pop-infused love letter with electronic production and soft vocals. The album showcases vulnerability and nostalgia through smooth beats and heartfelt lyrics.",
-        "songs": [
-            { "name": "Heartstrings", "rating": 5.2, "features": ["Khalid"] },
-            { "name": "Echoes of You", "rating": 6.0, "features": [] },
-            { "name": "Moonlight Serenade", "rating": 4.8, "features": [] }
+            { "name": "Chaos Theory", "rating": 7.5, "features": [] }
         ]
     }
 ]
